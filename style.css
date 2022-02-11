@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 50vh;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 25vh auto;
+  border: 1px solid grey;
+  padding: 2vh;
+  border-radius: 10px;
+  box-shadow: 2px 5px 10px grey;
+}
+
+.container img {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50px;
+  margin-bottom: 1vh;
+}
+
+.container h3, .container p {
+  margin-bottom: 1vh;
+}
+
+.container .btn-container {
+  display: flex;
+  gap: 2vh;
+  margin: 2vh;
+}
+
+.container .btn-container .prev, .container .btn-container .next {
+  width: 3vh;
+  height: 3vh;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.container .btn-container .prev i, .container .btn-container .next i {
+  font-size: 1.7rem;
+  transition: all 0.3s;
+}
+
+.container .btn-container .prev i:hover, .container .btn-container .next i:hover {
+  font-size: 2rem;
+}
+
+.container .random {
+  font-size: 1rem;
+  border-radius: 30px;
+  padding: 1vh;
+  cursor: pointer;
+  border: none;
+}
